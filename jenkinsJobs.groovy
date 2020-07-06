@@ -7,8 +7,6 @@ job("j-job1"){
                 scm("* * * * *")
                 
         }
-         label("s1")
-
 
         steps {
         shell('''sudo cp * /html/
