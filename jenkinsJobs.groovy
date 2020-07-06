@@ -90,7 +90,7 @@ fi''')
 buildPipelineView('j-jobs-view') {
   filterBuildQueue(true)
   filterExecutors(false)
-  title('j-jobs')
+  title('j-jobs-view')
   displayedBuilds(1)
   selectedJob('j-job1')
   alwaysAllowManualTrigger(false)
