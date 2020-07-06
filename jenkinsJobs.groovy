@@ -27,7 +27,6 @@ job("j-job2"){
     threshold("Fail")
         }
         }
-        label("s1")
 
         steps {
         shell('''if sudo kubectl get deployment | grep myweb
