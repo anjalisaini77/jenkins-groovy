@@ -87,7 +87,7 @@ fi''')
 }
 
 
-buildPipelineView('j-jobs') {
+buildPipelineView('j-jobs-view') {
   filterBuildQueue(true)
   filterExecutors(false)
   title('j-jobs')
