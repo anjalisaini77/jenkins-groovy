@@ -21,7 +21,7 @@ job("j-job2"){
         
         triggers {
         upstream {
-    upstreamProjects("j-job1")
+    upstreamProjects("j-job-view")
     threshold("Fail")
         }
         }
